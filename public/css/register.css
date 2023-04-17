@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+body{
+    position: relative;
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+h6{
+    margin-bottom: -13px;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    flex-direction: column;
+}
+main{
+    padding-bottom: 12.5rem;
+    padding-top: 2rem;
+}
+#move{
+    position: relative;
+    padding: 150px;
+    width: 200rem;
+}
+#form2Example3c{
+    position: relative;
+    right: 10px;
+}
+.fas{
+    position: relative;
+    right: 10px;
+}
+.card{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    color: #FFC312;
+    top: -50px;
+}
+.btn{
+    position: relative;
+    background-color: #FFC312;
+    color: black;
+}
+
+img{
+    height: 10vh;
+    margin-bottom: -28px;
+    margin-top: -28px;
+    margin-left: -10px;
+    padding: 5px;
+}
+.btn:hover{
+    background-color:whitesmoke;
+    color: black;
+}
+#message{
+    position: relative;
+    bottom: 10px;
+    font-size: 14px;
+}
+
+.forms{
+    display: none;   
+}
+.cartImg{
+    display: none;
+}
+.navbar-nav{
+    position: relative;
+    left: 35%;
+    z-index: 1000;
+}
+
+.logo{
+    height: 45px;
+    position: relative;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    padding: 5px;
+}
